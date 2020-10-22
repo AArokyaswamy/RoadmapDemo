@@ -13,14 +13,3 @@ public class RoadmapApplication {
 	}
 
 }
-
-
-@RestController
-class RoadmapController {
-	
-	@GetMapping("/employees")
-	 public String getEmployees() {  
-		return "test";  
-	 }
-
-}
